@@ -9,13 +9,35 @@ h1 {
 		font-style: italic;
 		font-size:36px;
 		font-weight: bolder;
-
+		text-align: center;
 }
 
-p {
+html {
 		font-weight: bolder;
 }
 #my-favorite {
 	font-weight: lighter;
 	color: deeppink;
+}
+{   box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px; 
+     
+}
+
+p {text-align: center;}
+
+.headshot
+{text-align: center;}
+
+
+.headline {text-align: center;}
+
+.story {display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px; }
 }
